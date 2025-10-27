@@ -8,6 +8,7 @@
 PC installed with SCILAB. 
 
 # PROGRAM: 
+```
 clc;
 clear;
 
@@ -22,7 +23,7 @@ xtitle("Original Sequence x(n)", "n", "Amplitude");
 subplot(2,1,2);
 plot2d3(0:N-1, abs(X));
 xtitle("Magnitude Spectrum |X(k)|", "k", "Magnitude"); 
-
+```
 # OUTPUT: 
 ![WhatsApp Image 2025-09-01 at 15 24 39_9802c260](https://github.com/user-attachments/assets/6bc1db20-df07-49bd-91da-14b8ee49d8c6)
 
